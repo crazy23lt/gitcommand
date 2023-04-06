@@ -12,6 +12,7 @@
 
 **版本回溯**
 `git log` 查看所有提交到本地仓库的记录 relog
+`git log --graph`查看分支合并图
 `git checkout -- file` 撤销工作区文件修改或误删
 `git reset --hard <id>` 工作空间内容回溯到本地仓储指定提交记录
 
