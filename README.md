@@ -19,7 +19,7 @@
 **分支管理**
 `git branch` 查看本地仓库所有分支
 `git branch <name>` 创建一个分支
-`git checkout <name>`/`git switch <name>` 切换分支
+`git checkout <name>`/`git switch <name>` 切换分支·
 `git checkout -b <name>` / `git switch -c <name>` 创建并切换分支
 `git merge <name>`合并指定分支到当前HEAD所在分支
 `git branch -d <name>`删除分支
