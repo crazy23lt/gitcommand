@@ -12,10 +12,23 @@
 
 **版本回溯**
 `git log` 查看所有提交到本地仓库的记录 relog
+`git checkout -- file` 撤销工作区文件修改或误删
+`git reset --hard <id>` 工作空间内容回溯到本地仓储指定提交记录
 
 **分支管理**
 `git branch` 查看本地仓库所有分支
-`git branch -c/--copy` 复制一个分支和他所有relog
+`git branch <name>` 创建一个分支
+`git checkout <name>`/`git switch <name>` 切换分支
+`git checkout -b <name>` / `git switch -c <name>` 创建并切换分支
+`git merge <name>`合并指定分支到当前HEAD所在分支
+`git branch -d <name>`删除分支
+
+**远程仓库管理**
+`git remote -v`查看本地仓储关联的远程仓储
+`git remote rm origin`删除本地仓储和远程仓储的关联 origin 远程仓储名称
+`git remote add origin git@.....`关联远程仓储 
+`git push -u origin master`推送master分支到远程仓储，并关联master分支，下次直接`git push` 
+
 
 **git Config配置**
 
@@ -25,4 +38,3 @@
 - `git config --local/--global --unset user.name`      删除配置项
 
 
-刘涛哈哈哈哈
