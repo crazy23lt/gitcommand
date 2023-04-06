@@ -11,7 +11,11 @@
 - `git commit -m "create README.md"`提交**stage暂存区**中的文件到**Repository本地仓储**
 
 **版本回溯**
+`git log` 查看所有提交到本地仓库的记录 relog
 
+**分支管理**
+`git branch` 查看本地仓库所有分支
+`git branch -c/--copy` 复制一个分支和他所有relog
 
 **git Config配置**
 
