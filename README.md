@@ -23,6 +23,17 @@
 `git checkout -b <name>` / `git switch -c <name>` 创建并切换分支
 `git merge <name>`合并指定分支到当前HEAD所在分支
 `git branch -d <name>`删除分支
+`git stash`保存当前分支内的stage暂存区内容
+`git stash list`查看所有stage暂存区内容保存记录
+`git stash apply stash@{num}`恢复stage暂存区内容到当前工作空间
+`git stash drop`删除保存记录
+`git cherry-pick <id>`将其他分支commit内容快速提交到当前分支 master分支出来的bug分支上的提交同样需要commmit到dev分支上
+
+**多人协作分支管理**
+`git switch -c dev origin/dev`创建本地dev分支和远程dev分支
+`git push origin dev`推送dev分支到远程仓储
+`git pull`拉取当前分支的远程仓储分支
+
 
 **远程仓库管理**
 `git remote -v`查看本地仓储关联的远程仓储
