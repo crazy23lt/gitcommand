@@ -48,7 +48,3 @@
 - `git config --glabal --list`              读取全局git配置信息
 - `git config --local/--global user.name "<username>"` 设置配置项
 - `git config --local/--global --unset user.name`      删除配置项
-
-
-liuttttt
-dddddddddddddddddddddddddddddddddddedededed
